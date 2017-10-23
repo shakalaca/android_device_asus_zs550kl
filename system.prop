@@ -1,8 +1,7 @@
 ro.build.model=ASUS_Z01FD
 ro.build.device=Z018
-# for stock ROM
 ro.product.device=ASUS_Z01F_1
 ro.product.model=ASUS_Z01FD
+# for stock ROM
 ro.build.product=Z018
 ro.build.asus.sku=WW
-
