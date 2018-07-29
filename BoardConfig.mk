@@ -31,8 +31,8 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000
 
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CONFIG := msmcortex_defconfig
-TARGET_PREBUILT_KERNEL := device/asus/Z018/kernel
+TARGET_KERNEL_CONFIG := ZS550KL-Aquarius_defconfig
+TARGET_KERNEL_SOURCE := kernel/asus/Z018
 
 TARGET_LDPRELOAD := libNimsWrap.so
 
